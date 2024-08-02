@@ -1,0 +1,57 @@
+        body{
+            background-image: url(bggaming.png);   
+           
+  font-family: "Oswald", sans-serif;
+   font-style: normal;
+}
+        .main {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            /* box-shadow: 1px 2px 15px rgb(189, 183, 183); */
+
+        }
+
+        .canvas {
+            border: 2px solid rgb(179, 176, 176);
+            background-color: aliceblue; 
+            box-shadow: 1px 2px 10px rgb(189, 183, 183);
+        }
+
+        .top,
+        .bottom {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 20px 0 20px 0;
+            /* box-shadow: 1px 2px 10px rgb(189, 183, 183); */
+          
+
+        }
+
+        .block,
+        input,
+        select,
+        button {
+            width: 80%;
+            color: #2c2c2c;
+        }
+
+        .column {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .bottom>button {
+            margin: 10px;
+        }
+
+        .top>.block {
+            margin: 10px;
+        }
+
+        .block>p {
+            margin: 10px auto;
+            width: 50%;
+        }
